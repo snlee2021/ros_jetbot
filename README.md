@@ -21,4 +21,6 @@ roscore
 
 rosrun jetbot_ros jetbot_camera
 
-# 
+roslaunch darknet_ros darknet_ros.launch
+
+출처: https://taemian.tistory.com/entry/ROS-1-n-darknetros를-활용한-Yolo-v3-사용법 [Taemian]
