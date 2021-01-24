@@ -14,8 +14,20 @@ Build ros_deep_learning
 
 Build jetbot_ros
 
+** darknet_ros.launch Source change : sudo gedit yoloobjectdetector.cpp
+142 imagetransport_subscribe("/jetbot_camera/raw",~~
+
 **순서대로 모두 설치
 
+1. SWAP MEMORY 15G SET
+
+ git clone https://github.com/JetsonHacksNano/resizeSwapMemory
+ 
+ ./setSwapMemorySize -g 15
+
+2. jetson nano power mode 5W SET
+
+3. COMMAND
 
 roscore
 
