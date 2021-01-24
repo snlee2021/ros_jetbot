@@ -14,6 +14,18 @@ Build ros_deep_learning
 
 Build jetbot_ros
 
+cd catkin_ws/src
+
+git clone --recursive https://github.com/leggedrobotics/darknet_ros.git 
+
+cd .. 
+
+catkin_make -DCMAKE_BUILD_TYPE=Release 
+
+빌드가 완료되었다면 
+
+rospack profile
+
 ** darknet_ros.launch Source change : sudo gedit yoloobjectdetector.cpp
 142 imagetransport_subscribe("/jetbot_camera/raw",~~
 
