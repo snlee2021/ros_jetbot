@@ -24,7 +24,7 @@ cd ..
 
 
 
-** darknet_ros.launch Source change : sudo gedit yoloobjectdetector.cpp
+** darknet_ros.launch Source change : sudo gedit YoloObjectDetector.cpp
 142 imagetransport_subscribe("/jetbot_camera/raw",~~
 
 catkin_make -DCMAKE_BUILD_TYPE=Release 
