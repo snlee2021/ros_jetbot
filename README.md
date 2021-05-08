@@ -2,7 +2,9 @@
 
 https://github.com/dusty-nv/jetbot_ros.git
 
-Install ROS Melodic
+# Install ROS Melodic
+
+http://wiki.ros.org/melodic/Installation/Ubuntu
 
 Install Adafruit Libraries
 
